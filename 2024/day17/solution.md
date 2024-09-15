@@ -18,47 +18,48 @@ For more about Dockerfile, visit [here](https://rushikesh-mashidkar.hashnode.dev
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/1_Create_a_new_directory.png)
+      ![image](https://github.com/RutvikMangukiya/90DaysOfDevOps/blob/day-17-solution/2024/day17/image/Task1mkdir.png)
 
-      - Create a new file named `app.py` and add the following content:
-
-      **Answer**
-
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/2_app_py.png)
-
-      - Create a requirements file named `requirements.txt` and add the following content:
+      - Clone the repository inside this directory:
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/3_Create_a_requirements_file.png)
+      ![image](https://github.com/RutvikMangukiya/90DaysOfDevOps/blob/day-17-solution/2024/day17/image/T2-git-clone.png)
+
 
    - **2. Create a Dockerfile**
       - Create a file named `Dockerfile` in the same directory and add the following content:
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/4_Create_a_Dockerfile.png)
+      ![image](https://github.com/RutvikMangukiya/90DaysOfDevOps/blob/day-17-solution/2024/day17/image/T3.1-vim-dockerfile.png)
+
+      ![image](https://github.com/RutvikMangukiya/90DaysOfDevOps/blob/day-17-solution/2024/day17/image/T3-New-dockerfile.png)
 
 **2. Build the image using the Dockerfile and run the container**
    - To build the Docker image, run the following command in the directory containing the Dockerfile:
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/5_build_the_docker_image.png)
+      ![image](https://github.com/RutvikMangukiya/90DaysOfDevOps/blob/day-17-solution/2024/day17/image/T4-docker-build.png)
 
    - Run the Container
       - To run the container, use the following command:
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/6_Run_the_Container.png)
+      ![image](https://github.com/RutvikMangukiya/90DaysOfDevOps/blob/day-17-solution/2024/day17/image/T5-docker-run.png)
+
+      - To list running containers, use the following command:
+
+      ![image](https://github.com/RutvikMangukiya/90DaysOfDevOps/blob/day-17-solution/2024/day17/image/T6-docker-ps.png)
 
 **3. Verify that the application is working as expected by accessing it in a web browser**
-   - Open your web browser and navigate to `http://localhost:5000`. You should see the message "Hello, World!".
+   - Open your web browser and navigate to `http://localhost:5000`. You should see the output page "Hello Docker!".
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/7_Verify_the_Application.png)
+      ![image](https://github.com/RutvikMangukiya/90DaysOfDevOps/blob/day-17-solution/2024/day17/image/T7-output.png)
 
 **4. Push the image to a public or private repository (e.g. Docker Hub)**
    - To push the image to Docker Hub, you need to tag it with your Docker Hub username and repository name, then push it.
@@ -66,13 +67,23 @@ For more about Dockerfile, visit [here](https://rushikesh-mashidkar.hashnode.dev
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/8_Tag_the_Image.png)
+      ![image](https://github.com/RutvikMangukiya/90DaysOfDevOps/blob/day-17-solution/2024/day17/image/T8-docker-tag.png)
 
    - **2. Push the Image**
 
       **Answer**
 
-      ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day17/image/9_Push_the_Image.png)
+      ![image](https://github.com/RutvikMangukiya/90DaysOfDevOps/blob/day-17-solution/2024/day17/image/T9-Dcoker-push.png)
+
+   - **3. Check your profile at Docker Hub Webpage**
+
+      **Answer**
+
+      ![image](https://github.com/RutvikMangukiya/90DaysOfDevOps/blob/day-17-solution/2024/day17/image/T10-dockerhub.png)
+
+      ![image](https://github.com/RutvikMangukiya/90DaysOfDevOps/blob/day-17-solution/2024/day17/image/T10-Dockerhub-2.png)
+
+
 
 For a reference project, visit [here](https://youtu.be/Tevxhn6Odc8).
 
