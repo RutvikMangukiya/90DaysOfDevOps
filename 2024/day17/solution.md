@@ -50,7 +50,7 @@ For more about Dockerfile, visit [here](https://rushikesh-mashidkar.hashnode.dev
 
       ![image](https://github.com/RutvikMangukiya/90DaysOfDevOps/blob/day-17-solution/2024/day17/image/T5-docker-run.png)
 
-      - To run the container, use the following command:
+      - To list running the containers, use the following command:
 
       ![image](https://github.com/RutvikMangukiya/90DaysOfDevOps/blob/day-17-solution/2024/day17/image/T6-docker-ps.png)
 
